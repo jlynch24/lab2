@@ -17,6 +17,8 @@ submitButton.addEventListener("click", function(event) {
     alert(first +"\n" + second + "\n" + third);
 
     //Stop form from firing
+    ///Here is my new comment
+    //Another comment
     event.preventDefault(); //How is it is deprecated?
 });
 
